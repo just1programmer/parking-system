@@ -1,12 +1,12 @@
-import Login from "./pages/Login";
-
+import './main.scss'
+import Layout from './components/Layout';
 import React from "react";
+import Form from './components/Form';
 
 function App() {
   return (
-    <React.Fragment>
-      <Login/>
-    </React.Fragment>
+ 
+  <Form/>
 
   );
 }
